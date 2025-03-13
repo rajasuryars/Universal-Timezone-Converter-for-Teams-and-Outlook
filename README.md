@@ -65,4 +65,3 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgments
 
 - Thanks to the developers behind Microsoft Teams and Outlook for providing robust web-based communication platforms.
-- Inspired by various time zone conversion tools and browser extensions available online.
