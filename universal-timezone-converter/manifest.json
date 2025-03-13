@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Universal Timezone Converter",
+    "version": "1.0",
+    "description": "Converts time strings in Microsoft Teams and Outlook to a target timezone of your choice.",
+    "content_scripts": [
+      {
+        "matches": [
+           "https://teams.microsoft.com/*",
+           "https://outlook.office.com/*"
+        ],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "permissions": ["activeTab", "scripting"]
+  }
+  
